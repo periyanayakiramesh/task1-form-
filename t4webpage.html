@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Along with PINK - Bus Booking</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;}
+        header {
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding: 25px; }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 12px; }
+        nav a {
+            color: white;
+            margin: 20px;}
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 25px;
+            width: 80%;
+            border-radius: 10px; }
+        h2 { color: hotpink; }
+        .container { width: 500px; }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            box-sizing: border-box;}
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: hotpink;
+            color: white;
+            border: none;
+            font-size: 16px; }
+        .card {
+            display: flex;
+            gap: 20px;}
+        .cards {
+            background-color: #fce4ec;
+            padding: 15px;
+            flex: 1;
+            border-radius: 8px}
+        footer {
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding: 20px;}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> Along with PINK 💗</h1>
+        <p>Book your trip with the Pink Community</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#routes">Routes</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Along with PINK</h2>
+
+        <p>
+            Welcome to Along with PINK, a simple and comfortable
+            bus booking platform for the Pink Community.
+        </p>
+
+        <p>
+            Find your bus, select your destination and book your
+            ticket easily from anywhere.
+        </p>
+
+        <h3>Travel comfortably. Travel safely. Travel together.</h3>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+
+        <p>
+            Along with PINK is a bus booking service created to make
+            travelling simple, comfortable and convenient.
+        </p>
+
+        <p>
+            Our website allows passengers to select their starting
+            city, destination, journey date and preferred bus type.
+        </p>
+
+        <ul>
+            <li>Easy online booking</li>
+            <li>Multiple bus options</li>
+            <li>Simple booking process</li>
+            <li>Comfortable travel</li>
+            <li>Community-based service</li>
+        </ul>
+    </section>
+
+    <section id="card">
+        <h2>Popular Routes</h2>
+
+        <div class="card">
+
+            <div class="card">
+                <h3>Chennai to Coimbatore</h3>
+                <p>Comfortable buses for long-distance travel.</p>
+            </div>
+
+            <div class="card">
+                <h3>Chennai to Madurai</h3>
+                <p>Travel safely and comfortably to Madurai.</p>
+            </div>
+
+            <div class="card">
+                <h3>Salem to Trichy</h3>
+                <p>Choose from different bus preferences.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Our Bus Types</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>AC Sleeper</h3>
+                <p>Comfortable sleeping seats with air conditioning.</p>
+            </div>
+
+            <div class="card">
+                <h3>AC Seater</h3>
+                <p>Air-conditioned seats for comfortable travel.</p>
+            </div>
+
+            <div class="card">
+                <h3>Non-AC Sleeper</h3>
+                <p>Affordable sleeper bus option.</p>
+            </div>
+
+            <div class="card">
+                <h3>Non-AC Seater</h3>
+                <p>Budget-friendly seating option.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Special Offers</h2>
+
+        <ul>
+            <li>First-time booking offer</li>
+            <li> Community member benefits</li>
+            <li> Weekend travel offers</li>
+            <li>Special festival offers</li>
+        </ul>
+    </section>
+
+    <section id="booking" class="container">
+
+        <h2>Ticket Booking</h2>
+
+        <form>
+
+            <label>From</label>
+            <select>
+                <option>Select Starting City</option>
+                <option>Chennai</option>
+                <option>Coimbatore</option>
+                <option>Madurai</option>
+                <option>Salem</option>
+                <option>Trichy</option>
+            </select>
+
+            <label>To</label>
+            <select>
+                <option>Select Destination</option>
+                <option>Chennai</option>
+                <option>Coimbatore</option>
+                <option>Madurai</option>
+                <option>Salem</option>
+                <option>Trichy</option>
+            </select>
+
+            <label>Journey Date</label>
+            <input type="date">
+
+            <label>Number of Passengers</label>
+            <input type="number" min="1" max="10">
+
+            <label>Pink Community ID</label>
+            <input type="text" placeholder="Enter your community ID">
+
+            <label>Bus Preference</label>
+            <select>
+                <option>Select Bus Type</option>
+                <option>AC Sleeper</option>
+                <option>AC Seater</option>
+                <option>Non-AC Sleeper</option>
+                <option>Non-AC Seater</option>
+            </select>
+
+            <label>Passenger Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter mobile number">
+
+            <button type="submit">Book Ticket</button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Why Choose Along with PINK?</h2>
+
+        <ol>
+            <li>Simple and easy booking</li>
+            <li>Ensuring women safety</li>
+            <li>Comfortable travel options</li>
+            <li>Easy passenger details entry</li>
+            <li>Community-focused service</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p><b>Email:</b> support@alongwithpink.com</p>
+        <p><b>Phone:</b> 44085 44085</p>
+        <p><b>24 hours service</b></p>
+
+        <p>
+            Need a help in  booking?
+            Contact our support team.
+        </p>
+    </section>
+
+    
+    <footer>
+        <p>© copyrights</p>
+        <p>Travel together. Travel safely. </p>
+    </footer>
+
+</body>
+</html>
+
